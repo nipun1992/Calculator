@@ -3,20 +3,20 @@ package com.Listener;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
-public class WindowListenerImplementation implements WindowListener{
+public class WindowListenerImplementation implements WindowListener {
 
 	@Override
 	public void windowActivated(WindowEvent e) {
 		// TODO Auto-generated method stub
 		System.out.println("Window Activated");
-		
+
 	}
 
 	@Override
 	public void windowClosed(WindowEvent e) {
 		// TODO Auto-generated method stub
 		System.out.println("Window closed");
-		
+
 	}
 
 	@Override
@@ -49,7 +49,5 @@ public class WindowListenerImplementation implements WindowListener{
 		// TODO Auto-generated method stub
 		System.out.println("Window Opened");
 	}
-	
-	
 
 }
