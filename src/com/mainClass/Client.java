@@ -10,7 +10,7 @@ public class Client {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Frame frame = FrameObject.createFrame("Calculator", true, 1000, 1000, Color.LIGHT_GRAY);
+		Frame frame = FrameObject.createFrame("Calculator", true, 800, 800, Color.GREEN);
 
 	}
 
